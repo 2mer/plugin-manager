@@ -1,4 +1,4 @@
-import IPluginProvider from '../types/PluginProvider';
+import IPluginProvider from '../types/IPluginProvider';
 
 export interface IMiddlewarePluginProviderOptions<T> {
 	onPluginsProvided: (
