@@ -1,4 +1,3 @@
-export { default as ImportPluginProvider } from './ImportPluginProvider';
 export {
 	default as MiddlewarePluginProvider,
 	IMiddlewarePluginProviderOptions,

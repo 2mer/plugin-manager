@@ -1,4 +1,4 @@
-import IPluginProvider from '../types/IPluginProvider';
+import IPluginProvider from '../types/PluginProvider';
 
 // provides plugins given in the constructor
 export default class SimplePluginProvider<T> implements IPluginProvider<T> {

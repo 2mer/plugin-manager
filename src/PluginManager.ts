@@ -1,4 +1,4 @@
-import IPluginProvider from './types/IPluginProvider';
+import IPluginProvider from './types/PluginProvider';
 
 export default class PluginManager<T> {
 	plugins: T[] = [];
