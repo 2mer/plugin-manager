@@ -1,9 +1,9 @@
 {
 	"name": "@sgty/plugin-system",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "",
 	"main": "dist/index.js",
-	"types": "dist/types",
+	"types": "dist/types/index.d.ts",
 	"scripts": {
 		"build": "tsc",
 		"pub": "pnpm publish --access public"

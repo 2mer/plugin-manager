@@ -8,9 +8,9 @@ export default class ImportPluginProvider<T> implements IPluginProvider<T> {
 	}
 
 	async providePlugins(): Promise<T[]> {
-		const plugins = (
-			await Promise.all(this.pluginsPaths.map((path) => import(path)))
-		).map((mod) => mod.default);
+		const plugins = await Promise.all(
+			this.pluginsPaths.map((path) => import(path))
+		);
 
 		return plugins;
 	}
