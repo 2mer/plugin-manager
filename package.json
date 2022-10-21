@@ -1,0 +1,17 @@
+{
+	"name": "@sgty/plugin-system",
+	"version": "1.0.0",
+	"description": "",
+	"main": "dist/index.js",
+	"types": "dist/types",
+	"scripts": {
+		"build": "tsc",
+		"pub": "pnpm publish"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "Apache-2.0 license",
+	"devDependencies": {
+		"typescript": "^4.8.4"
+	}
+}
