@@ -14,6 +14,6 @@ export default class PluginManager<T> {
 			return acc.concat(curr);
 		}, []);
 
-		this.plugins.concat(plugins);
+		this.plugins = this.plugins.concat(plugins);
 	}
 }
